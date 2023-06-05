@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Battle_City</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\CodeBase\Fields\EntitiesField.cs" Link="Fields\EntitiesField.cs" />
+    <Compile Include="..\CodeBase\Fields\Field.cs" Link="Fields\Field.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Cells\BrickWall.cs" Link="Game_Elements\Cells\BrickWall.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Cells\Cell.cs" Link="Game_Elements\Cells\Cell.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Cells\EmptyCell.cs" Link="Game_Elements\Cells\EmptyCell.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Cells\IronWall.cs" Link="Game_Elements\Cells\IronWall.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Cells\Wall.cs" Link="Game_Elements\Cells\Wall.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Cells\Water.cs" Link="Game_Elements\Cells\Water.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Entities\Base.cs" Link="Game_Elements\Entities\Base.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Entities\Bullet.cs" Link="Game_Elements\Entities\Bullet.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Entities\Enemy.cs" Link="Game_Elements\Entities\Enemy.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Entities\Entity.cs" Link="Game_Elements\Entities\Entity.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Entities\MovingEntity.cs" Link="Game_Elements\Entities\MovingEntity.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Entities\Player.cs" Link="Game_Elements\Entities\Player.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Entities\Tank.cs" Link="Game_Elements\Entities\Tank.cs" />
+    <Compile Include="..\CodeBase\Game_Elements\Visible.cs" Link="Game_Elements\Visible.cs" />
+    <Compile Include="..\CodeBase\Internal_Code\Build.cs" Link="Internal_Code\Build.cs" />
+    <Compile Include="..\CodeBase\Internal_Code\Globals.cs" Link="Internal_Code\Globals.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Game_Elements\Entities\" />
+    <Folder Include="Game_Elements\Cells\" />
+    <Folder Include="Fields\" />
+    <Folder Include="Internal_Code\" />
+  </ItemGroup>
+
+</Project>
