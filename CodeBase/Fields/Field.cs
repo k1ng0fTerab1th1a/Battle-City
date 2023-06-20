@@ -96,7 +96,7 @@ namespace Battle_City.Fields
         }
 
         public void Destroy(int xstart, int ystart, int xstop, int ystop)
-        { 
+        {
             for (int i = xstart; i < xstop; i++)
             {
                 for (int j = ystart; j < ystop; j++)

@@ -1,98 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Battle_City.Game_Elements.Cells.BrickWall" Collapsed="true">
-    <Position X="6" Y="4.5" Width="1.5" />
+    <Position X="3.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Game_Elements\Cells\BrickWall.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Cells.Cell" Collapsed="true">
-    <Position X="9" Y="2" Width="1.5" />
+    <Position X="6.25" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Game_Elements\Cells\Cell.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Cells.EmptyCell" Collapsed="true">
-    <Position X="10.5" Y="3.25" Width="1.5" />
+    <Position X="8" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Cells\EmptyCell.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Cells.IronWall" Collapsed="true">
-    <Position X="8" Y="4.5" Width="1.5" />
+    <Position X="5.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Cells\IronWall.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Cells.Wall" Collapsed="true">
-    <Position X="7" Y="3.25" Width="1.5" />
+    <Position X="4.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Cells\Wall.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Cells.Water" Collapsed="true">
-    <Position X="8.75" Y="3.25" Width="1.5" />
+    <Position X="6.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Cells\Water.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Entities.Base" Collapsed="true">
-    <Position X="12.5" Y="3.25" Width="1.5" />
+    <Position X="9.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Entities\Base.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Entities.Bullet" Collapsed="true">
-    <Position X="15.75" Y="4.5" Width="1.5" />
+    <Position X="12.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAgAACAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Entities\Bullet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Entities.Enemy" Collapsed="true">
-    <Position X="12.75" Y="5.75" Width="1.5" />
+    <Position X="9.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Entities\Enemy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Entities.Entity" Collapsed="true">
-    <Position X="13.5" Y="2" Width="1.5" />
+    <Position X="10.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAABAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Entities\Entity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Entities.MovingEntity" Collapsed="true">
-    <Position X="14.75" Y="3.25" Width="1.5" />
+    <Position X="11.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQgAAAoAAAAAoAAAIAAAFAAAAAAEAABCAAQAAACA=</HashCode>
+      <HashCode>AAAAAgAAAoAAAAAgAAAAAAABAAAAAAEAABAAAQAAACA=</HashCode>
       <FileName>Game_Elements\Entities\MovingEntity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Entities.Player" Collapsed="true">
-    <Position X="14.75" Y="5.75" Width="1.5" />
+    <Position X="11.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Entities\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Entities.Tank" Collapsed="true">
-    <Position X="13.75" Y="4.5" Width="1.5" />
+    <Position X="10.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Game_Elements\Entities\Tank.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Battle_City.Game_Elements.Visible" Collapsed="true">
-    <Position X="11.25" Y="0.75" Width="1.5" />
+    <Position X="8.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAgAAAAAAAEAAAAAABAAAAAAAAAAAYAA=</HashCode>
       <FileName>Game_Elements\Visible.cs</FileName>
