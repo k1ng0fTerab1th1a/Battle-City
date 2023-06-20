@@ -15,6 +15,8 @@ namespace BattleCityGUI.Forms
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormClosed += OnClose;
+            this.Text = "Battle City";
+            this.Icon = Resources.icon;
         }
 
         public void OnClose(object? sender, EventArgs e)
