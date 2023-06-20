@@ -1,0 +1,14 @@
+D:\visual studio solutions\BattleCity\CodeBase\bin\Debug\net6.0\CodeBase.deps.json
+D:\visual studio solutions\BattleCity\CodeBase\bin\Debug\net6.0\CodeBase.dll
+D:\visual studio solutions\BattleCity\CodeBase\bin\Debug\net6.0\CodeBase.pdb
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.csproj.AssemblyReference.cache
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.Properties.Resources.resources
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.csproj.GenerateResource.cache
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.AssemblyInfoInputs.cache
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.AssemblyInfo.cs
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.csproj.CoreCompileInputs.cache
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.dll
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\refint\CodeBase.dll
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\CodeBase.pdb
+D:\visual studio solutions\BattleCity\CodeBase\obj\Debug\net6.0\ref\CodeBase.dll

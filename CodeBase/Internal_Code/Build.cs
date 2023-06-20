@@ -1,9 +1,12 @@
 ﻿using Battle_City.Fields;
 using Battle_City.Game_Elements.Cells;
+using CodeBase;
+using CodeBase.Properties;
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
 using static Battle_City.Internal_Code.Globals;
@@ -88,10 +91,9 @@ namespace Battle_City.Internal_Code
             Block(field, BaseX - 8, BaseY, typeof(EmptyCell));
         }
 
-        private static void DecodeLevel(Field field, string path)
+        private static void DecodeLevel(Field field, string map)
         {
             //fhieght.fwidth.basex.basey.playerx.playery.enemy1spawnx.enemy1spawny.enemy2spawnx.enemy2spawny.enemy3spawnx.enemy3spawny - .....
-            string map = File.ReadAllText(path);
             string[] lines = map.Split("\n");
             for (int i = 0; i < field.Height; i++)
             {
@@ -139,7 +141,7 @@ namespace Battle_City.Internal_Code
 
             Base(field);
             */
-            DecodeLevel(field, @"levels/lvl1.txt");
+            DecodeLevel(field, CodeBase.Properties.Resources.lvl1);
         }
     }
 }
