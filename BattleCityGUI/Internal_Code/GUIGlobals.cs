@@ -8,8 +8,8 @@ namespace BattleCityGUI.Internal_Code
 {
     internal static class GUIGlobals
     {
-        public static int CellWidth = 15;
-        public static int CellHeight = 15;
+        public static int CellWidth = 16;
+        public static int CellHeight = 16;
 
 
     }

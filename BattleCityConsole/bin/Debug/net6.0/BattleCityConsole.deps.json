@@ -7,27 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "BattleCityConsole/1.0.0": {
-        "dependencies": {
-          "CodeBase": "1.0.0"
-        },
         "runtime": {
           "BattleCityConsole.dll": {}
-        }
-      },
-      "CodeBase/1.0.0": {
-        "runtime": {
-          "CodeBase.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BattleCityConsole/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CodeBase/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

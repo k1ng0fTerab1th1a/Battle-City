@@ -11,7 +11,6 @@ namespace Battle_City.Game_Elements.Entities
 {
     public abstract class MovingEntity : Entity
     {
-        public static event EventHandler? EntityDied;
         public int Speed { get; protected init; }
         public bool IsMoving = false;
 
@@ -50,11 +49,12 @@ namespace Battle_City.Game_Elements.Entities
             }
         }
 
+        //protected abstract void MoveHelper(Field field, int deltaX, int deltaY);
+
         public override void Die(Field field)
         {
             base.Die(field);
             NeedsToBeRemoved = true;
-            EntityDied?.Invoke(this, EventArgs.Empty);
         }
 
         public static void DrawMovings()

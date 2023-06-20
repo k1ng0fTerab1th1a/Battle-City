@@ -9,9 +9,7 @@ namespace Battle_City
         {
             GameEngine engine = new GameEngine();
             GraphicsEngine graphicsEngine = new GraphicsEngine();
-            InputEngine inputEngine = new InputEngine();
             graphicsEngine.Set();
-            inputEngine.Set();
             while (true)
             {
                 engine.Run();

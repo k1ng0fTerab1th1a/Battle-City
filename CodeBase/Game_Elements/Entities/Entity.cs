@@ -13,6 +13,7 @@ namespace Battle_City.Game_Elements.Entities
 {
     public abstract class Entity : Visible
     {
+        //protected static EntitiesField entitiesField = new(FieldWidth, FieldHeight);
 
         
 
