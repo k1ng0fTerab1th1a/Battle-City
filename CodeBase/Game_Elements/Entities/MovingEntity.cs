@@ -1,5 +1,5 @@
-﻿using Battle_City.Fields;
-using Battle_City.Internal_Code;
+﻿using CodeBase.Fields;
+using CodeBase.Internal_Code;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +7,11 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Battle_City.Game_Elements.Entities
+namespace CodeBase.Game_Elements.Entities
 {
     public abstract class MovingEntity : Entity
     {
+        public static event EventHandler? EntityDied;
         public int Speed { get; protected init; }
         public bool IsMoving = false;
 
@@ -49,12 +50,11 @@ namespace Battle_City.Game_Elements.Entities
             }
         }
 
-        //protected abstract void MoveHelper(Field field, int deltaX, int deltaY);
-
         public override void Die(Field field)
         {
             base.Die(field);
             NeedsToBeRemoved = true;
+            EntityDied?.Invoke(this, EventArgs.Empty);
         }
 
         public static void DrawMovings()

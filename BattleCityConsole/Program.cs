@@ -1,7 +1,7 @@
-﻿using Battle_City.Engines;
+﻿using CodeBase.Engines;
 using System.Diagnostics.SymbolStore;
 
-namespace Battle_City
+namespace CodeBase
 {
     internal static class Program
     {
@@ -9,7 +9,9 @@ namespace Battle_City
         {
             GameEngine engine = new GameEngine();
             GraphicsEngine graphicsEngine = new GraphicsEngine();
+            InputEngine inputEngine = new InputEngine();
             graphicsEngine.Set();
+            inputEngine.Set();
             while (true)
             {
                 engine.Run();

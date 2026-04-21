@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Battle_City.Game_Elements.Cells
+namespace CodeBase.Game_Elements.Cells
 {
     public class Water : Cell
     {

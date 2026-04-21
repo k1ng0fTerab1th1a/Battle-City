@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Battle_City.Internal_Code;
+using CodeBase.Internal_Code;
 
-namespace Battle_City
+namespace CodeBase.Engines
 {
     class InputEngine
     {
@@ -49,6 +49,11 @@ namespace Battle_City
                 }
             }
             return false;
+        }
+
+        public void Set()
+        {
+            GameEngine.ProcessInput += ProcessInput;
         }
     }
 }

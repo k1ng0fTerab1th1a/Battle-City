@@ -1,11 +1,11 @@
-﻿using Battle_City.Fields;
+﻿using CodeBase.Fields;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Battle_City.Game_Elements.Entities
+namespace CodeBase.Game_Elements.Entities
 {
     public class Base : Entity
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Battle_City.Game_Elements.Entities;
+using CodeBase.Game_Elements.Entities;
 
-namespace Battle_City.Fields
+namespace CodeBase.Fields
 {
     public class EntitiesField
     {

@@ -3,33 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Battle_City.Internal_Code;
-using static Battle_City.Internal_Code.Globals;
-using Battle_City.Fields;
-using Battle_City.Game_Elements.Entities;
+using CodeBase.Internal_Code;
+using static CodeBase.Internal_Code.Globals;
+using CodeBase.Fields;
+using CodeBase.Game_Elements.Entities;
 using System.ComponentModel;
 
-namespace Battle_City.Engines
+namespace CodeBase.Engines
 {
+    public delegate void ProcessInput(ref Direction curdir, out bool isMoving, out bool shoot);
     public class GameEngine
     {
         public static event EventHandler? StartMenu;
         public static event EventHandler? GameOver;
         public static event EventHandler? Win;
+
+        public static ProcessInput? ProcessInput;
         private enum GameState { Win, Lose, OnGoing }
 
         
         public void Run()
         {
             StartMenuMethod();
+
             MovingEntity.ClearList();
             Field field = new Field(FieldWidth, FieldHeight);
             //field.ClearField();
             Base @base = new Base(BaseX, BaseY, field);
             Build.Stage1(field);
             Player player = new Player(16, 48, Direction.Up, field);
-            InputEngine inpEngine = new InputEngine();
-
 
             
             field.Draw();
@@ -43,7 +45,7 @@ namespace Battle_City.Engines
             do
             {
                 dir = player.Dir;
-                inpEngine.ProcessInput(ref dir, out player.IsMoving, out shoot);
+                ProcessInputMethod(ref dir, out player.IsMoving, out shoot);
                 player.Dir = dir;
                 if (shoot)
                 {
@@ -109,6 +111,15 @@ namespace Battle_City.Engines
         public void WinMethod()
         {
             Win?.Invoke(this, EventArgs.Empty);
+        }
+
+        public void ProcessInputMethod(ref Direction curdir, out bool isMoving, out bool shoot)
+        {
+            bool _ismoving = false;
+            bool _shoot = false;
+            ProcessInput?.Invoke(ref curdir, out _ismoving, out _shoot);
+            isMoving = _ismoving;
+            shoot = _shoot;
         }
     }
 }

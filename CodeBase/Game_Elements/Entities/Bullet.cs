@@ -1,13 +1,13 @@
-﻿using Battle_City.Fields;
-using Battle_City.Internal_Code;
+﻿using CodeBase.Fields;
+using CodeBase.Internal_Code;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Battle_City.Internal_Code.Globals;
+using static CodeBase.Internal_Code.Globals;
 
-namespace Battle_City.Game_Elements.Entities
+namespace CodeBase.Game_Elements.Entities
 {
     public class Bullet : MovingEntity
     {

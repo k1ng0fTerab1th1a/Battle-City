@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Battle_City.Internal_Code
+namespace CodeBase.Internal_Code
 {
     public enum Direction { Left, Right, Up, Down }
     public static class Globals

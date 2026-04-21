@@ -4,12 +4,12 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using Battle_City.Game_Elements;
-using Battle_City.Game_Elements.Cells;
-using Battle_City.Internal_Code;
-using Battle_City.Game_Elements.Entities;
+using CodeBase.Game_Elements;
+using CodeBase.Game_Elements.Cells;
+using CodeBase.Internal_Code;
+using CodeBase.Game_Elements.Entities;
 
-namespace Battle_City.Fields
+namespace CodeBase.Fields
 {
     public class Field : Visible
     {
@@ -96,7 +96,7 @@ namespace Battle_City.Fields
         }
 
         public void Destroy(int xstart, int ystart, int xstop, int ystop)
-        {
+        { 
             for (int i = xstart; i < xstop; i++)
             {
                 for (int j = ystart; j < ystop; j++)

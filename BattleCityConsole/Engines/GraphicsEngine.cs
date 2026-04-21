@@ -7,15 +7,14 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using static Battle_City.Internal_Code.Globals;
-using Battle_City.Internal_Code;
-using Battle_City.Fields;
-using Battle_City.Game_Elements;
-using Battle_City.Game_Elements.Cells;
-using Battle_City.Game_Elements.Entities;
-using Battle_City.Engines;
+using static CodeBase.Internal_Code.Globals;
+using CodeBase.Internal_Code;
+using CodeBase.Fields;
+using CodeBase.Game_Elements;
+using CodeBase.Game_Elements.Cells;
+using CodeBase.Game_Elements.Entities;
 
-namespace Battle_City
+namespace CodeBase.Engines
 {
     public class GraphicsEngine
     {
@@ -89,6 +88,7 @@ namespace Battle_City
         };
         public void Set()
         {
+            Console.SetWindowSize(FieldWidth, FieldHeight);
             Console.SetBufferSize(FieldWidth, FieldHeight);
             Console.CursorVisible = false;
             Visible.DrawVisible += DrawInConsole;

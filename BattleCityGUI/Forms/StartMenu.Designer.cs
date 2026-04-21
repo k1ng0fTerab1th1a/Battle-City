@@ -1,6 +1,6 @@
 ﻿namespace BattleCityGUI
 {
-    partial class MainWindow
+    partial class StartMenu
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartMenu));
             this.SuspendLayout();
             // 
             // MainWindow
