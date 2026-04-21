@@ -1,3 +1,4 @@
+
 # Battle City
 
 A C# remake of the classic 1985 Namco arcade game. Comes in two flavours: a Windows Forms GUI and a terminal-based console version.
@@ -8,12 +9,15 @@ A C# remake of the classic 1985 Namco arcade game. Comes in two flavours: a Wind
 
 ### Console version
 
+<img width="480" height="360" alt="console_gameplay" src="https://github.com/user-attachments/assets/3926d2ad-756a-4191-930e-c9dda760b5c0" />
+
 | Destroying a wall | Enemy behaviour | Player shooting enemy |
 |:-:|:-:|:-:|
-| *(gif here)* | *(gif here)* | *(gif here)* |
+| <img width="157" height="121" alt="destroying wall" src="https://github.com/user-attachments/assets/b924a336-e413-472b-801e-81d51582f14a" /> | <img width="200" height="150" alt="enemy behavior" src="https://github.com/user-attachments/assets/7281bc70-612b-46e9-a171-1b0d22a82bc0" /> | <img width="148" height="126" alt="player shooting enemy" src="https://github.com/user-attachments/assets/10c96a91-5962-45bb-a0cb-b39d0743a0e4" /> |
 
 ### GUI version
 
+<img width="480" height="495" alt="gui_gameplay" src="https://github.com/user-attachments/assets/81224891-6f16-4989-84fb-9238714e86cb" />
 
 
 ---
